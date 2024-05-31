@@ -1,9 +1,19 @@
 // ----------------------------------------------REFRESH ON RESIZE CODE---------------------------------------------------
 
+var widthValue;
+
+window.onload = function()
+{
+    widthValue = window.innerWidth;
+}
 
 window.onresize = function(event)
 {
-document.location.reload(true);
+    if( widthValue != window.innerWidth )
+        {
+            document.location.reload(true);
+            widthValue = window.innerWidth;
+        }  
 }
 
 
