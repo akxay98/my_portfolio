@@ -7,12 +7,6 @@ document.location.reload(true);
 }
 
 
-// ----------------------------------------------TO LAND ON TOP AFTER REFRESH CODE---------------------------------------------------
-
-
-window.location.replace(window.location.hash = "#home1");
-
-
 // ----------------------------------------------TOGGLE NAVBAR CODE---------------------------------------------------
 
 
