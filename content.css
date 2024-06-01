@@ -257,7 +257,8 @@
 }
 .skills .education .row .col-lg .box
 {
-    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
     padding: 2rem;
     height: 12rem;
     border-radius: 2rem;
