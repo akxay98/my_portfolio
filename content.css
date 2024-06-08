@@ -59,9 +59,7 @@
 .home ol i:hover
 {
     cursor: pointer;
-    -webkit-box-shadow: 0 0 0.5rem #00ABE4;
-            box-shadow: 0 0 0.5rem #00ABE4;
-    border: 0.1rem solid #00ABE4;
+    color: white;
     -webkit-transform: translateY(-0.3rem);
         -ms-transform: translateY(-0.3rem);
             transform: translateY(-0.3rem);
@@ -84,9 +82,6 @@
 {
     -webkit-box-shadow: 0 0 0.5rem #00ABE4;
             box-shadow: 0 0 0.5rem #00ABE4;
-    -webkit-transform: translate(0.3rem, 0.3rem);
-        -ms-transform: translate(0.3rem, 0.3rem);
-            transform: translate(0.3rem, 0.3rem);
 }
 .home img
 {
@@ -618,4 +613,8 @@
 .contact .up i
 {
     font-size: 2.5rem;
+}
+.contact .up i:hover
+{
+    color: white;
 }
