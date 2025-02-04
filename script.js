@@ -133,7 +133,7 @@ ScrollReveal().reveal('.image, .up, .artwork', { origin: 'top' });
 
 
 const typed = new Typed('#typedjs', {
-    strings: ['Web Designer', 'Backend Developer', 'Web Developer'],
+    strings: ['Backend Developer', 'Web Developer', 'Graphite Artist'],
     typeSpeed: 50,
     backSpeed: 50,
     backDelay: 1000,

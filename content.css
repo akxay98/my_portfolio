@@ -133,7 +133,7 @@
 }
 .about .content
 {
-    padding: 5.5rem 1rem;
+    padding: 1rem 1rem;
 }
 .about .intro
 {
@@ -144,7 +144,7 @@
     -webkit-box-shadow: 0rem 0.2rem 1rem rgb(123, 119, 119);
             box-shadow: 0rem 0.2rem 1rem rgb(123, 119, 119);
     text-align: center;
-    padding: 5rem 3rem;
+    padding: 2rem 3rem;
     font-weight: 600;
     background-color: #cbe6ef;
 }
@@ -162,7 +162,7 @@
     max-height: -webkit-fit-content;
     max-height: -moz-fit-content;
     max-height: fit-content;
-    padding: 8rem 1rem;
+    padding: 2rem 2rem;
     text-align: center;
     font-weight: 600;
 }
@@ -192,6 +192,27 @@
             transform: translate(0.3rem, 0.3rem);
 }
 
+.about .exp
+{
+    padding: 0rem 2rem;
+}
+
+.about .exp h3
+{
+    text-align: center;
+    font-weight: 900;
+}
+
+.about .exp h2
+{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.about .exp .location
+{
+    opacity: 0.7;
+}
 
 /* ----------------------------------------------------------Skills page---------------------------------------------------------- */
 
